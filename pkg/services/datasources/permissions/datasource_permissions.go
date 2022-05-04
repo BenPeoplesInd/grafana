@@ -16,7 +16,7 @@ type DatasourcePermissionsService interface {
 // dummy method
 func (hs *OSSDatasourcePermissionsService) FilterDatasourcesBasedOnQueryPermissions(ctx context.Context, cmd *models.DatasourcesPermissionFilterQuery) error {
 	//return ErrNotImplemented
-	return Ok
+	return nil
 }
 
 type OSSDatasourcePermissionsService struct{}
